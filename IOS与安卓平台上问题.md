@@ -195,7 +195,7 @@ input type date 的 placeholder 支持性有一定问题，因为浏览器会针
 
   描述信息：页面包含fixed顶部的tip element，当页面向下滑动的时候Chrome地址栏自动隐藏，当向上滑动的时候地址栏自动出现。这种交互行为本身的好处会增大用户可视、交互区域。但是在Chrome 26这个版本这个浏览器UI布局使用adjustPan的方式，以至于向上滑动以后fixed的元素没有被自动向下移动（没有重绘）。
 
-<img src="./thumb/chrome-autohidden-influnce-fixed-element.png" width="320px" height="480px" alt="Chrome自动隐藏地址栏影响fixed元素显示"/>
+<img src="./images/chrome-autohidden-influnce-fixed-element.png" width="320px" height="480px" alt="Chrome自动隐藏地址栏影响fixed元素显示"/>
 
 <a href="https://code.google.com/p/chromium/issues/detail?id=288747">bug fixed</a>
 <a href="http://stackoverflow.com/questions/11258877/fixed-element-disappears-in-chrome">解决办法在这里</a>
